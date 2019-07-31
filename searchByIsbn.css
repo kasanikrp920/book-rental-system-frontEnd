@@ -1,0 +1,75 @@
+h1{
+    text-align: center;
+    }
+    body{
+        background-color: white;
+    }
+    .home{
+        width: 800px;
+        height: auto;
+        margin: 0px auto;
+        background-color: aliceblue;
+    }
+    .image{
+       
+        background-image: url("./images/searchByIsbn.jpg");
+    
+        min-height: 600px;
+      
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+       
+    }
+    
+    .container {
+        position: absolute;
+        left: 0px;
+        top: 30%;
+        margin: 20px;
+        max-width: 400px;
+        height: 200PX;
+        padding: 26px;
+        
+      }
+      
+      /* Full-width input fields */
+      input[type=text]{
+        width: 100%;
+        padding: 8px;
+        margin: 8px 0 30px 0;
+        border: none;
+        background: #f1f1f1;
+        color: aliceblue;
+      }
+      
+      input[type=text]:focus{
+        background-color: rgb(241, 165, 165);
+        outline: none;
+      }
+      
+      /* Set a style for the submit button */
+      .btn {
+        background-color: rgb(19, 71, 78);
+        color: rgb(250, 245, 245);
+        padding: 16px 20px;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        opacity: 0.9;
+      }
+      a{
+      padding: 8px;
+      color: palegoldenrod;
+        
+      }
+      a:hover{
+        background-color: aqua;
+        color:black;
+      }
+      .btn:focus{
+          background-color: chartreuse;
+          color: black;
+      }

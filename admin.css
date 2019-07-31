@@ -1,0 +1,236 @@
+body{
+    background-color:rgb(192, 232, 255);
+}
+.home{
+    background-color: aliceblue;
+    width: 55%;
+    margin: 0px auto;
+    margin-top: 0px;
+    
+}
+h1{
+    text-align: center;
+    font-size: 7em;
+    background-color: rgb(243, 178, 189);
+    margin-bottom: 0px;
+    border: 2px dotted black;
+    border-radius: 2px;
+}
+img{
+    width: 100%;
+    margin-top: 0px;
+}
+.box{
+    position: relative;
+    display: inline-block; /* Make the width of box same as image */
+    border-radius: 5px;
+    border: 2px solid black;
+    border-top: 0;
+}
+.box .links{
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: -60%;
+    top: 10%; /* Adjust this value to move the positioned div up and down */
+    text-align: center;
+    width: 60%; /* Set the width of the positioned div */
+    font-size:5em;
+}
+a:hover{
+    background-color: rgb(23, 194, 32);
+    color: white;
+}
+a{
+    color:blue;
+    background-color:rgb(255, 255, 255);
+
+}
+/*add button on admin page*/
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0);
+    transition: background 0.5s ease;
+  }
+  .box:hover .overlay {
+    display: block;
+    background: rgba(0, 0, 0, .3);
+  }
+  
+  .title1 {
+    position: absolute;
+    width: 500px;
+    left: 200px;
+    top: 160px;
+    font-weight: 700;
+    font-size: 5.5em;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    z-index: 1;
+    transition: top .5s ease;
+  }
+  .box:hover .title1 {
+    top: 10px;
+  }
+  
+  .button1 {
+    position: absolute;
+    width: 500px;
+    left:200px;
+    top: 230px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity .35s ease;
+  }
+  
+  .button1 a {
+    width: 300px;
+    height: 100px;
+    padding: 40px 140px;
+    text-align: center;
+    color:rgb(15, 15, 230);
+    border: solid 2px white;
+    z-index: 1;
+    font-size: 4em;
+  }
+  
+  .box:hover .button1 {
+    opacity: 1;
+  }
+ /*delete button on admin page*/
+
+ .title2 {
+  position: absolute;
+  width: 500px;
+  left: 200px;
+  top: 500px;
+  font-weight: 700;
+  font-size: 5em;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  z-index: 1;
+  transition: top .5s ease;
+}
+.box:hover .title2 {
+  top: 280px;
+}
+
+.button2 {
+  position: absolute;
+  width: 500px;
+  left:200px;
+  top: 600px;
+  text-align: center;
+  opacity: 0;
+  transition: opacity .35s ease;
+}
+
+.button2 a {
+  width: 200px;
+  padding: 40px 140px;
+  text-align: center;
+  color:rgb(10, 10, 231);
+  border: solid 2px white;
+  z-index: 1;
+  font-size: 4em;
+}
+
+.box:hover .button2 {
+  opacity: 1;
+}
+/*rent button on admin page*/
+
+.title3 {
+  position: absolute;
+  width: 500px;
+  left: 200px;
+  top: 800px;
+  font-weight: 700;
+  font-size: 5.5em;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  z-index: 1;
+  transition: top .5s ease;
+}
+.box:hover .title3 {
+  top: 640px;
+}
+
+.button3 {
+  position: absolute;
+  width: 500px;
+  left:200px;
+  top: 1100px;
+  text-align: center;
+  opacity: 0;
+  transition: opacity .35s ease;
+}
+
+.button3 a {
+  width: 200px;
+  padding: 40px 140px ;
+  text-align: center;
+  color:rgb(15, 15, 238);
+  border: solid 2px white;
+  z-index: 1;
+  font-size: 4em;
+}
+
+.box:hover .button3 {
+  opacity: 1;
+}
+
+/*borrower details button on admin page*/
+
+.title4 {
+  position: absolute;
+  width: 500px;
+  left: 200px;
+  top: 1200px;
+  font-weight: 700;
+  font-size: 5.5em;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  z-index: 1;
+  transition: top .5s ease;
+}
+.box:hover .title4 {
+  top: 1250px;
+}
+
+.button4 {
+  position: absolute;
+  width: 500px;
+  left:200px;
+  top: 1600px;
+  text-align: center;
+  opacity: 0;
+  transition: opacity .35s ease;
+}
+
+.button4 a {
+  width: 200px;
+  padding: 40px 140px ;
+  text-align: center;
+  color:rgb(15, 15, 238);
+  border: solid 2px white;
+  z-index: 1;
+  font-size: 4em;
+}
+
+.box:hover .button4 {
+  opacity: 1;
+}
+
+ 
+ 
+  

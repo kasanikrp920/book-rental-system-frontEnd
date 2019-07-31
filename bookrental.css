@@ -1,0 +1,175 @@
+#title{
+    background-color:darkcyan;
+    width: 800px;
+    margin: 0px auto;
+    padding:10px;
+    border-radius: 15px;
+
+}
+h1{
+    text-align: center;
+    color: aliceblue;
+    font-size: 3em; 
+}
+.links{
+    background-color: aliceblue;
+    color: aliceblue;
+    text-align: right;
+    padding: 4px;
+    font-size: 1.5em;
+    margin-left: 0px;
+    margin-right: 0px;
+    border: 2px dotted black;
+}
+a:hover{
+    background-color: rgb(201, 23, 192)
+}
+.mod1{
+    width: 400px;
+    border: 2px solid black;
+    height: 300px;
+    background-color:white;
+     
+}
+.modules{
+    width: 800px;
+    height: 400px;
+    margin:1px;
+    
+    background-image: url("./images/lib.jpg");
+  
+    min-height: 600px;
+  
+    /* Center and scaling  the image  */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+     opacity: 1;
+    transition: opacity 0.5s ease;
+}
+.modules:hover{
+  opacity:0.75;
+}
+
+.buttons{
+  opacity: 0.75;
+  transition: opacity 0.5s ease;
+}
+.buttons:hover{
+  opacity: 1;
+}
+ 
+ 
+.buttons .btn1{
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  width: 200px;
+  background-color:white;
+  color:black;
+  font-size: 16px;
+  padding: 20px 50px;
+  margin: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  transition:width 1s, border-radius 1s ease  ;
+  z-index: 1;
+}
+.modules .btn1:hover{
+    background-color:  #61082B;
+    color: rgb(248, 248, 252);
+    width: 250px;    
+    border-radius: 30px;  
+  }
+
+.buttons .btn2{
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    width: 200px;
+    background-color: white;
+    color:black;
+    font-size: 16px;
+    padding: 20px 50px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    transition:width 1s,border-radius 1s ease   ;
+    z-index: 1;
+  }
+  
+  .modules .btn2:hover{
+      background-color:rgb(19, 230, 19);
+      color:ghostwhite;
+      width: 250px;
+      border-radius: 30px;
+  }
+   
+  footer{
+      background-color: aliceblue;
+      margin: 10px;
+      width: 790px;
+      text-align: center;
+
+  }
+ 
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content1 {
+    display: none;
+    position: absolute;
+    background-color: coral;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    color: black;
+    font-size: 0.5em;
+  }
+  
+  .dropdown:hover .dropdown-content1 {
+    display: block;
+  }
+  .dropdown-content2 {
+    display: none;
+    position: absolute;
+    background-color: rgb(80, 255, 133);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    color: black;
+    font-size: 0.5em;
+    
+  }
+  
+  .dropdown:hover .dropdown-content2 {
+    display: block;
+  }
+/* blinking   */
+.blinking{
+  animation:blinkingText 20s infinite;
+}
+@keyframes blinkingText{
+  0%{background-color: honeydew;  }
+  10%{background-color: hotpink;  }
+  20%{background-color:green;  }
+  30%{background-color: darkblue;  }
+  40%{background-color: rgb(25, 176, 236);  }
+  50%{background-color: rgb(204, 12, 12);  }
+  60%{background-color: rgb(17, 230, 17);  }
+  70%{background-color: black;  }
+  80%{background-color: deeppink;  }
+  90%{background-color:deepskyblue;  }
+  100%{background-color: rgb(161, 9, 9);  }
+   
+}
+  

@@ -1,0 +1,89 @@
+h1{
+    text-align: center;
+    }
+    body{
+        background-color:white;
+    }
+    .home{
+        width: 800px;
+        height: auto;
+        margin: 0px auto;
+        background-color: aliceblue;
+    }
+    .image{
+       
+        background-image: url("./images/searching.jpg");
+    
+        min-height: 600px;
+      
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    
+    }
+    .container {
+        position: absolute;
+        left: 200px;
+        top: 25%;
+        margin: 0px auto;
+        max-width: 500px;
+        height: 200PX;
+        padding: 26px;
+        
+      }
+      
+      /* Full-width input fields */
+       .btn1{
+        padding: 20px 50px;
+        margin: 11.5px;
+        border: 1px solid blue;
+        cursor: pointer;
+        border-radius: 10px;
+        text-align: center;
+        border: none;
+        background-color: rgb(241, 198, 238);
+        color: black;
+        font-size: 1em;
+        width: 400px;
+        left: 0;
+      }
+      .btn1:hover{
+          background-color: blue;
+          color: aliceblue;
+      }
+      .btn2{
+        padding: 20px 50px;
+        margin: 10px;
+        border: 1px solid blue;
+        cursor: pointer;
+        border-radius: 10px;
+        text-align: center;
+        border: none;
+        background-color: rgb(99, 220, 241);
+        color: black;
+        font-size: 1em;
+        width: 400px;
+        
+
+
+      }
+      .btn2:hover{
+          background-color: rgb(33, 212, 114);
+          color: rgb(1, 10, 17);
+      }
+      .links{
+          position:absolute;
+          right: 10px;
+          top: 10%; 
+      }
+      a{
+          color: rgb(0, 1, 2);
+          padding: 10px;
+          background-color: cornsilk
+      }
+      a:hover{
+          background-color: darkcyan;
+          color: aliceblue;
+      }
